@@ -11,7 +11,7 @@ sh "ls -l"
 
 stage('Build docker image'){
 
-sh "docker build -t docker_test:latest ."
+sh "docker build -t docker_project:latest ."
 }
 
 stage('Docker login to hub and push the image'){
